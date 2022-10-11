@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24999" started-at="2022-10-03T13:32:01Z" finished-at="2022-10-03T13:32:26Z">
+    <groups>
+      <group name="sanity">
+        <method signature="Sam.ts()[pri:0, instance:org.testng.Sam@614ddd49]" name="ts" class="org.testng.Sam"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="24999" started-at="2022-10-03T13:32:01Z" finished-at="2022-10-03T13:32:26Z">
+      <class name="org.testng.Sam">
+        <test-method status="PASS" signature="bef()[pri:0, instance:org.testng.Sam@614ddd49]" name="bef" is-config="true" duration-ms="23881" started-at="2022-10-03T13:32:01Z" finished-at="2022-10-03T13:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bef -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:org.testng.Sam@614ddd49]" name="befMet" is-config="true" duration-ms="1" started-at="2022-10-03T13:32:26Z" finished-at="2022-10-03T13:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="ts()[pri:0, instance:org.testng.Sam@614ddd49]" name="ts" duration-ms="59" started-at="2022-10-03T13:32:26Z" finished-at="2022-10-03T13:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts -->
+        <test-method status="PASS" signature="afeM()[pri:0, instance:org.testng.Sam@614ddd49]" name="afeM" is-config="true" duration-ms="0" started-at="2022-10-03T13:32:26Z" finished-at="2022-10-03T13:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afeM -->
+      </class> <!-- org.testng.Sam -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
